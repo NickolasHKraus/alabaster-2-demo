@@ -1,3 +1,34 @@
-baseURL = "http://example.org/"
+baseURL = "https://alabaster-2.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+metadataFormat = "yaml"
+title = "Alabaster 2"
+theme = "alabaster-2"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[params]
+	name = "Alabaster-2"
+	description = "A simple, documentation theme for Hugo. Alabaster 2 is JavaScript-free and fully open-source!"
+
+	github_user   = "NickolasHKraus"
+	github_repo   = "alabaster-2"
+	github_banner = true
+
+	custom_css = []
+	custom_js  = []
+
+	highlightjs = "css/highlight.css"
+	favicon = "favicon.ico"
+
+[params.sidebar]
+	logo = "favicon.ico"
+	github_button  = true
+	travis_button  = false
+	codecov_button = false
+	gratipay = ""
+	show_relations = true
+
+[params.footer]
+	copyright = "[NickolasHKraus](https://github.com/NickolasHKraus)"
+	show_powered_by = true
