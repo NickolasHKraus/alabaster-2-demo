@@ -8,7 +8,7 @@ disqusShortname = ""
 googleAnalytics = ""
 
 [params]
-	name = "Alabaster-2"
+	name = "Alabaster 2"
 	description = "A simple, documentation theme for Hugo. Alabaster 2 is JavaScript-free and fully open-source!"
 
 	github_user   = "NickolasHKraus"
