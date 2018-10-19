@@ -1,0 +1,3 @@
+[submodule "themes/alabaster-2"]
+	path = themes/alabaster-2
+	url = git@github.com:NickolasHKraus/alabaster-2.git
