@@ -1,19 +1,19 @@
-baseURL = "https://alabaster-2.io/"
+baseurl = "https://alabaster-2.hugo-themes.io"
 languageCode = "en-us"
-metadataFormat = "yaml"
-title = "Alabaster 2"
+metadataformat = "yaml"
+title = "Alabaster 2 Demo"
 theme = "alabaster-2"
 
 disqusShortname = ""
 googleAnalytics = ""
 
 [params]
-	name = "Alabaster 2"
-	description = "A simple, documentation theme for Hugo. Alabaster 2 is JavaScript-free and fully open-source!"
+	name = "Alabaster 2 Demo"
+	description = "A demo website for Alabaster 2"
 
 	github_user   = "NickolasHKraus"
-	github_repo   = "alabaster-2"
-	github_banner = true
+	github_repo   = "alabaster-2-demo"
+	github_banner = false
 
 	custom_css = []
 	custom_js  = []
@@ -23,12 +23,14 @@ googleAnalytics = ""
 
 [params.sidebar]
 	logo = "favicon.ico"
-	github_button  = true
+
+	github_button  = false
 	travis_button  = false
 	codecov_button = false
 	gratipay = ""
+
 	show_relations = true
 
 [params.footer]
-	copyright = "[NickolasHKraus](https://github.com/NickolasHKraus)"
+	copyright = "[NickolasHKraus](https://github.com/digitalcraftsman)"
 	show_powered_by = true
