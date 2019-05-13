@@ -1,9 +1,7 @@
 ---
 date: 2019-05-13T00:00:00-06:00
-title: Foreword
-menu: main
+title: Overview
 type: homepage
-weight: 0
 ---
 
 ## What is Alabaster 2?
