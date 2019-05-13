@@ -47,7 +47,7 @@ will be rendered as
 Lorem ipsum dolor.
 {{< /admonition >}}
 
-The `type` parameter can optionally be used to either display a `note` or `warning`. The last type is the default one. 
+The `type` parameter can optionally be used to either display a `note` or `warning`. The last type is the default one.
 
 ```md
 {{</* admonition title="Caution" */>}}

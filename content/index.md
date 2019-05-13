@@ -12,7 +12,7 @@ weight: 0
 
 [Fabric](http://www.fabfile.org/) and [Invoke](http://www.pyinvoke.org/) are two examples of the Alabaster theme in the wild.
 
-The following pages will guide you through the setup, introduce you to the very basics of [Hugo](https://gohugo.io) and show you the capabilities of this theme. Have a look at the [Roadmap]({{< relref "roadmap/index.md" >}}) if you're curious about what comes next.
+The following pages will guide you through the setup, introduce you to the very basics of [Hugo](https://gohugo.io) and show you the capabilities of this theme. Have a look at the [Roadmap]({{ relref . "roadmap/index.md" }}) if you're curious about what comes next.
 
 ## Acknowledgements
 

@@ -9,7 +9,7 @@ weight: 10
 
 ### Install Hugo
 
-Hugo itself is just a single binary without dependencies on expensive runtimes like Ruby, Python or PHP and without dependencies on any databases. 
+Hugo itself is just a single binary without dependencies on expensive runtimes like Ruby, Python or PHP and without dependencies on any databases.
 
 {{< admonition title="Note" type="note" >}}
 Currently, this theme makes use of features that will be part of the Hugo v0.16 release. You have to [compile](https://github.com/spf13/hugo/#clone-the-hugo-project-contributor) the latest developement version yourself.
@@ -41,9 +41,9 @@ git clone git@github.com:digitalcraftsman/hugo-alabaster-theme.git
 
 ## Setup
 
-Next, take a look in the `exampleSite` folder at `themes/hugo-alabaster-theme/`. This directory contains an example config file and the content that you are currently reading. It serves as an example setup for your documentation. 
+Next, take a look in the `exampleSite` folder at `themes/hugo-alabaster-theme/`. This directory contains an example config file and the content that you are currently reading. It serves as an example setup for your documentation.
 
-Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary. 
+Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary.
 
 Hugo includes a development server, so you can view your changes as you go -
 very handy. Spin it up with the following command:
@@ -75,7 +75,7 @@ googleAnalytics = ""
 
 Add some metadata about your theme. The `name` and `description` will appear in the top left of the sidebar. Furthermore, you can enable tracking via Google Analytics by entering your tracking code.
 
-To allow users direct feedback to your documentation you can also enable a comment section powered by Disqus. The comment section will appear on each page except the homepage. 
+To allow users direct feedback to your documentation you can also enable a comment section powered by Disqus. The comment section will appear on each page except the homepage.
 
 
 ## Options
@@ -173,7 +173,7 @@ It is required that you add your username and the URL to the project you want to
 {{< /admonition >}}
 
 If your project is hosted on GitHub, add the repository link and your username to the
-configuration. 
+configuration.
 
 ```toml
 [params]
@@ -202,7 +202,7 @@ Now you can define which buttons you want to show:
 
 ### Relations
 
-Includes links to the previous and next page in a section those exist under the menu as "Related Topics". This makes the navigation for users easier. It can be disabled if each of your website section's contain only contain a single page. 
+Includes links to the previous and next page in a section those exist under the menu as "Related Topics". This makes the navigation for users easier. It can be disabled if each of your website section's contain only contain a single page.
 
 ```toml
 [params.sidebar]
@@ -211,7 +211,7 @@ Includes links to the previous and next page in a section those exist under the 
 
 ## Footer
 
-The footer is very simple. Your `copyright` notice can be formatted with Markdown. This can be handy if you want to format text slightly or you want to include a hyperlink. 
+The footer is very simple. Your `copyright` notice can be formatted with Markdown. This can be handy if you want to format text slightly or you want to include a hyperlink.
 
 `show_powered_by` allows you hide the showcase of the used tools. Some promotion is always appreciated.
 
