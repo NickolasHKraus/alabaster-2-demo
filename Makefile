@@ -7,6 +7,7 @@ help:
 	@echo " exampleSite    create exampleSite directory"
 	@echo " screenshot     create screenshot.png"
 	@echo " tn             create tn.png"
+	@echo " date           get the date in the format: %Y-%m-%dT00:00:00-06:00"
 
 .PHONY: exampleSite
 exampleSite:
@@ -18,8 +19,12 @@ exampleSite:
 
 .PHONY: screenshot
 screenshot:
-	echo "TODO"
+	@echo "TODO"
 
 .PHONY: tn
 tn:
-	echo "TODO"
+	@echo "TODO"
+
+.PHONY: date
+date:
+	@date "+%Y-%m-%dT00:00:00-06:00"
