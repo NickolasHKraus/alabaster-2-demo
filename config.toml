@@ -1,14 +1,14 @@
 baseurl = "https://alabaster-2.hugo-themes.io"
 languageCode = "en-us"
 metadataformat = "yaml"
-title = "Alabaster 2 Demo"
+title = "Alabaster 2"
 theme = "alabaster-2"
 
 disqusShortname = ""
 googleAnalytics = ""
 
 [params]
-	name = "Alabaster 2 Demo"
+	name = "Alabaster 2"
 	description = "A demo website for Alabaster 2"
 
 	github_user   = "NickolasHKraus"

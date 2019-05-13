@@ -28,3 +28,8 @@ tn:
 .PHONY: date
 date:
 	@date "+%Y-%m-%dT00:00:00-06:00"
+
+.PHONY: clean
+clean:
+	rm -rf public
+	rm -rf resources
