@@ -1,6 +1,7 @@
 ---
 date: 2019-05-13T00:00:00-06:00
 title: Adding Content
+url: /adding-content
 menu: main
 weight: 2
 ---
@@ -16,6 +17,26 @@ hugo new <section>/filename.md
 Visitors of your site will find the document under `/<section>/filename/`.
 
 Since it's possible to have multiple content files in the same section, it is recommended that you create at least one `index.md` file per section. This ensures that users will find an index page under `/<section>`.
+
+## Content Organization
+
+It is possible to organize content such that the directory names correspond to the article weight:
+
+```bash
+content
+├── 01_getting-started
+├── 02_adding-content
+└── 03_roadmap
+```
+
+To then allow URLs to simply be, for example, `/getting-started`, `adding-content`, `roadmap`, set the URL in the frontmatter:
+
+```bash
+---
+title: Getting Started
+url: /getting-started
+---
+```
 
 ## Homepage
 
