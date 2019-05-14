@@ -2,7 +2,6 @@
 date: 2019-05-13T00:00:00-06:00
 title: Getting Started
 url: /getting-started
-menu: main
 weight: 1
 ---
 
