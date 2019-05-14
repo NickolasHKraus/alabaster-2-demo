@@ -1,7 +1,8 @@
 ---
 date: 2019-05-13T00:00:00-06:00
 title: Overview
-type: homepage
+url: /
+weight: -1
 ---
 
 ## What is Alabaster 2?
