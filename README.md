@@ -1,6 +1,6 @@
 # Alabaster 2 Demo
 
-A demo website for Alabaster 2
+A demo website for Alabaster 2.
 
 ## Development
 
