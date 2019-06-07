@@ -21,10 +21,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 	custom_js  = []
 
 	highlightjs = "css/highlight.css"
-	favicon = "favicon.ico"
+	favicon = ""
 
 [params.sidebar]
-	logo = "favicon.ico"
+	logo = "favicon.png"
 
 	github_button  = false
 	travis_button  = false
