@@ -19,7 +19,7 @@ Since it's possible to have multiple content files in the same section, it is re
 
 ## Content Organization
 
-It is possible to organize content such that the directory names correspond to the article weight:
+It is possible to organize content such that the directory names corresponding to the article weight:
 
 ```bash
 content
@@ -39,17 +39,7 @@ url: /getting-started
 
 ## Homepage
 
-To add content to the homepage, you need to add a small indicator to the frontmatter of the content file:
-
-```yaml
-type: homepage
-```
-
-Otherwise, the theme will not be able to find the corresponding content file.
-
-## Table of contents
-
-You maybe noticed that the menu on the left contains a small table of contents of the current page. All `<h2>` tags (`## H2` in Markdown) will be added automatically.
+To add content to the homepage, simply edit `_index.md`.
 
 ## Admonitions
 
@@ -74,13 +64,13 @@ in HTML.
 The `type` parameter can optionally be used to either display a `note` or `warning`. The last type is the default one.
 
 ```md
-{{</* admonition title="Caution" */>}}
+{{</* admonition title="Caution" type="warning" */>}}
 Lorem ipsum dolor.
 {{</* /admonition */>}}
 ```
 
 becomes:
 
-{{< admonition title="Caution" >}}
+{{< admonition title="Caution" type="warning" >}}
 Lorem ipsum dolor.
 {{< /admonition >}}

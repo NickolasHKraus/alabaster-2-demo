@@ -9,13 +9,13 @@ weight: 1
 
 ### Install Hugo
 
-Hugo itself is just a single binary without dependencies on expensive runtimes like Ruby, Python or PHP. Hugo also does not depend on any databases.
+Hugo itself is just a single binary without dependencies on expensive runtimes like Ruby, Python, or PHP. Hugo also does not depend on any databases.
 
 Let's make sure Hugo is set up as expected. You should see a similar version number in your terminal:
 
 ```bash
 $ hugo version
-Hugo Static Site Generator v0.55.5/extended darwin/amd64 BuildDate: unknown
+Hugo Static Site Generator v0.55.4/extended darwin/amd64 BuildDate: unknown
 ```
 
 ### Install Alabaster 2
@@ -75,7 +75,7 @@ To allow users to provide direct feedback on your documentation, you can also en
 
 ### Adding a custom favicon
 
-Favicons are small icons that are displayed in the browser tab to the left of the title of the current page. You will need to save your favicon in the `static` directory and provide the relative link to your `config.toml`:
+Favicons are small icons that are displayed in the browser tab to the left of the title of the current page. You will need to save your favicon in the `static` directory and provide the relative link in your `config.toml`:
 
 ```toml
 [params]
@@ -84,14 +84,14 @@ Favicons are small icons that are displayed in the browser tab to the left of th
 
 ### Syntax highlighting
 
-This theme uses the popular [Highlight.js](https://highlightjs.org/) library to colorize code examples. The default theme is called *Foundation* with a few small tweaks. You can link our own theme if you like. Again, store your custom style sheet in the `static` directory and provide the relative link to your `config.toml`:
+This theme uses the popular [Highlight.js](https://highlightjs.org/) library to colorize code examples. The default theme is called *Foundation* with a few small tweaks. You can link your own theme if you like. Again, store your custom style sheet in the `static` directory and provide the relative link in your `config.toml`:
 
 ```toml
 [params]
   highlightjs  = "static/css/theme.css"
 ```
 
-Alternatively, you can use Pygments to highlight code blocks. If `highlight.js` does not contain a path, it defaults to the Pygments style sheet. Read the [Hugo docs](https://gohugo.io/extras/highlighting#pygments) for more information.
+Alternatively, you can use Pygments to highlight code blocks. If `highlightjs` does not contain a path, it defaults to the Pygments style sheet. Read the [Hugo docs](https://gohugo.io/extras/highlighting#pygments) for more information.
 
 If you use GitHub-flavored Markdown with code fences like the following:
 
@@ -143,11 +143,11 @@ Once you created your first content files you can link them manually in the side
   weight = 0
 ```
 
-`name` is the title displayed in the menu and `url` the relative URL to the content. The `weight` attribute allows you to modify the order of the menu entries. A menu entry appears further down the more weight you add.
+`name` is the title displayed in the menu and `url` is the relative URL to the content. The `weight` attribute allows you to modify the order of the menu entries. A menu entry appears further down the more weight you add.
 
 Instead of just linking a single file you can enhance the sidebar by creating a nested menu. This way you can list all pages of a section instead of linking them one by one (without nesting).
 
-You need extend the frontmatter of each file content file in a section slightly. The snippet below registers this content file as *child* of a *menu* entry that already exists.
+You need to extend the frontmatter of each content file in a section slightly. The snippet below registers this content file as *child* of a *menu* entry that already exists.
 
 ```yaml
 menu: main
